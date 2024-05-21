@@ -4,7 +4,7 @@ export const ContactPage = () => {
   return (
     <>
       <NavBarComponent />
-      <div> Creator Page</div>
+      <div> Contact Page</div>
     </>
   );
 };
