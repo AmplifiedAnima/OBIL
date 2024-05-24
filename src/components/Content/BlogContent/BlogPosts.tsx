@@ -2,11 +2,11 @@ import { mockDataBlodPosts } from './mockdata/mockdata';
 
 export const BlogPosts = () => {
   return (
-    <div className="grid gap-8">
+    <div className="grid gap-10">
       {mockDataBlodPosts.map(post => {
         return (
           <div
-            className="bg-lightPurple border-darkPurple border-solid border-2 p-6 rounded-lg shadow-md"
+            className="bg-lightPurple border-darkPurple border-solid border-2 p-6 rounded-lg shadow-lg "
             key={post.name}
           >
             <h2 className="text-2xl text-darkGrey font-bold mb-2">

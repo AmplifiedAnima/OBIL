@@ -5,8 +5,11 @@ export const HomePage = () => {
   return (
     <>
       <NavBarComponent />
-      <div className="mt-24 ml-4 mr-4 flex flex-col items-center">
-        <div className="w-full max-w-4xl">
+      <div className="mt-24 mx-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className=" w-full md:w-3/4">
+          <BlogPosts />
+        </div>{' '}
+        <div className=" w-full md:w-1/2">
           <BlogPosts />
         </div>
       </div>
